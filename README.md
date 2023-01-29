@@ -2,7 +2,7 @@
 
 ChaptTY is realtime private chat application
 
-[photo]('https://github.com/ElenaCherpakova/chatTY/blob/46347e0fede97895e8a575e228746742a875fc48/public/photoChatTY.png')
+![Screenshot](public/photoChatTY.png)
 
 ## Installation
 
