@@ -5,13 +5,22 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 
+// const firebaseConfig = {
+//   apiKey: import.meta.env.VITE_API_KEY,
+//   authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+//   projectId: import.meta.env.VITE_PROJECT_ID,
+//   storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+//   messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+//   appId: import.meta.env.VITE_APP_ID,
+// };
+
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
+  apiKey: "AIzaSyCrp8u7Qsjouwm6I6gi6pKqI1aEVsdz9Kw",
+  authDomain: "chatty-797f0.firebaseapp.com",
+  projectId: "chatty-797f0",
+  storageBucket: "chatty-797f0.appspot.com",
+  messagingSenderId: "1047158526840",
+  appId: "1:1047158526840:web:fa90138ef4daa9afc9ae8d"
 };
 
 // Initialize Firebase
